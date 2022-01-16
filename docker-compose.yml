@@ -1,0 +1,13 @@
+version: "1"
+services:
+ db:
+  build: ./database
+	
+ backend:
+  build: ./back-end
+  depends_on: db
+  
+ frontend:
+  build: ./front-end
+  depends_on: backend
+	

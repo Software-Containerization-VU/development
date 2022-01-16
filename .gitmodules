@@ -1,0 +1,9 @@
+[submodule "database"]
+	path = database
+	url = https://github.com/Software-Containerization-VU/database
+[submodule "back-end"]
+	path = back-end
+	url = https://github.com/Software-Containerization-VU/back-end
+[submodule "front-end"]
+	path = front-end
+	url = https://github.com/Software-Containerization-VU/front-end
